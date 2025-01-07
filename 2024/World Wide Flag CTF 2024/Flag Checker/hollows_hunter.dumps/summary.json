@@ -1,0 +1,20 @@
+{
+ "scan_date_time" : "11/30/24 23:23:06",
+ "scan_timestamp" : 1732983786,
+ "scan_time_ms" : 43125,
+ "scanned_count" : 311,
+ "suspicious_count" : 1,
+ "suspicious" : [
+  {
+   "pid" : 26428,
+   "is_managed" : 0,
+   "name" : "nslookup.exe",
+   "replaced" : 1,
+   "hdr_modified" : 0,
+   "implanted_pe" : 1,
+   "implanted_shc" : 0,
+   "unreachable_file" : 0,
+   "other" : 1
+  }
+ ]
+}

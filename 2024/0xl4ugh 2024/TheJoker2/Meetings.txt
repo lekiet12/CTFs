@@ -1,0 +1,15 @@
+Date: 2024-07-08
+Attendees: Alice, Bob, Charlie
+Agenda:
+1. Project Updates
+2. Budget Review
+3. Next Steps
+
+Notes:
+- Alice presented the current status of the project. All milestones are on track.
+- Bob reviewed the budget. We need to allocate more funds for marketing.
+- Charlie suggested conducting user testing next month.
+Action Items:
+- Alice to prepare a user testing plan by July 15.
+- Bob to revise the budget and submit for approval by July 10.
+- Charlie to schedule the next meeting on July 20.

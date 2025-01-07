@@ -1,0 +1,257 @@
+_0o0Oo:
+	pushl	%ebp
+	movl	%esp, %ebp
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	$28, %esp
+	movl	12(%ebp), %eax
+	movl	%eax, -40(%ebp)
+	movl	16(%ebp), %eax
+	movl	%eax, -36(%ebp)
+	movl	8(%ebp), %eax
+	movl	%eax, -20(%ebp)
+	movl	$0, -24(%ebp)
+	jmp	o0OoO
+o0O0o:
+	movl	-20(%ebp), %eax
+	shrl	%eax
+	movl	%eax, %esi
+	movl	-20(%ebp), %eax
+	shrl	$16, %eax
+	xorl	-20(%ebp), %eax
+	movl	%eax, %ebx
+	movl	-24(%ebp), %eax
+	andl	$63, %eax
+	movl	%eax, %ecx
+	movl	-40(%ebp), %eax
+	movl	-36(%ebp), %edx
+	shrdl	%cl, %edx, %eax
+	shrl	%cl, %edx
+	testb	$32, %cl
+	je	oO0o0
+	movl	%edx, %eax
+	xorl	%edx, %edx
+oO0o0:
+	movl	%ebx, %edx
+	xorl	%eax, %edx
+	movl	-20(%ebp), %eax
+	shrl	%eax
+	andl	$1, %eax
+	movl	%eax, %ecx
+	movl	-20(%ebp), %eax
+	shrl	$20, %eax
+	andl	$1, %eax
+	movl	%eax, %ebx
+	movl	-20(%ebp), %eax
+	shrl	$31, %eax
+	leal	(%eax,%eax), %edi
+	movl	-20(%ebp), %eax
+	shrl	$26, %eax
+	andl	$1, %eax
+	addl	%edi, %eax
+	addl	%eax, %eax
+	addl	%ebx, %eax
+	leal	(%eax,%eax), %ebx
+	movl	-20(%ebp), %eax
+	shrl	$9, %eax
+	andl	$1, %eax
+	addl	%ebx, %eax
+	addl	%eax, %eax
+	addl	%ecx, %eax
+	movl	$979137582, %ebx
+	movl	%eax, %ecx
+	sarl	%cl, %ebx
+	movl	%ebx, %eax
+	xorl	%edx, %eax
+	sall	$31, %eax
+	xorl	%esi, %eax
+	movl	%eax, -20(%ebp)
+	addl	$1, -24(%ebp)
+o0OoO:
+	cmpl	$527, -24(%ebp)
+	jbe	o0O0o
+	movl	-20(%ebp), %eax
+	addl	$28, %esp
+	popl	%ebx
+	popl	%esi
+	popl	%edi
+	popl	%ebp
+	ret
+OoO0o:
+	.ascii "W0w You Got Flag!!!!\0"
+	pushl	%ebp
+	movl	%esp, %ebp
+	andl	$-16, %esp
+	subl	$112, %esp
+	movl	12(%ebp), %eax
+	addl	$4, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 108(%esp)
+	movl	12(%ebp), %eax
+	addl	$8, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 104(%esp)
+	movl	12(%ebp), %eax
+	addl	$12, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 100(%esp)
+	movl	12(%ebp), %eax
+	addl	$16, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 96(%esp)
+	movl	12(%ebp), %eax
+	addl	$20, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 92(%esp)
+	movl	12(%ebp), %eax
+	addl	$24, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 88(%esp)
+	movl	12(%ebp), %eax
+	addl	$28, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 84(%esp)
+	movl	12(%ebp), %eax
+	addl	$32, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 80(%esp)
+	movl	12(%ebp), %eax
+	addl	$36, %eax
+	movl	(%eax), %eax
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%eax, (%esp)
+	call	_strtoul
+	movl	%eax, 76(%esp)
+	movl	$938769594, 64(%esp)
+	movl	$878633747, 68(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	108(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 60(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	104(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 56(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	100(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 52(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	96(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 48(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	92(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 44(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	88(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 40(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	84(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 36(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	80(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 32(%esp)
+	movl	64(%esp), %eax
+	movl	68(%esp), %edx
+	movl	%eax, 4(%esp)
+	movl	%edx, 8(%esp)
+	movl	76(%esp), %eax
+	movl	%eax, (%esp)
+	call	_0o0Oo
+	movl	%eax, 28(%esp)
+	cmpl	$384298162, 60(%esp)
+	jne	OOoO0
+	cmpl	$-88548146, 56(%esp)
+	jne	OOoO0
+	cmpl	$349339073, 52(%esp)
+	jne	OOoO0
+	cmpl	$488498761, 48(%esp)
+	jne	OOoO0
+	cmpl	$242060753, 44(%esp)
+	jne	OOoO0
+	cmpl	$1436371157, 40(%esp)
+	jne	OOoO0
+	cmpl	$1709692819, 36(%esp)
+	jne	OOoO0
+	cmpl	$-1016646918, 32(%esp)
+	jne	OOoO0
+	cmpl	$-377917403, 28(%esp)
+	jne	OOoO0
+	movl	$OoO0o, (%esp)
+	call	_printf
+OOoO0:
+	movl	$0, %eax
+	leave
+	ret
+

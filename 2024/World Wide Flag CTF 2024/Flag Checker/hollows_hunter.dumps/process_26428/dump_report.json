@@ -1,0 +1,35 @@
+ {
+  "pid" : 26428,
+  "output_dir" : "process_26428",
+  "dumped" : 
+  {
+   "total" : 3,
+   "dumped" : 3
+  },
+  "dumps" : [
+   {
+    "module" : "7ff7e7600000",
+    "module_size" : "29000",
+    "dump_file" : "7ff7e7600000.nslookup.exe",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ff7e7600000",
+    "module_size" : "29000",
+    "dump_file" : "7ff7e7600000.nslookup.exe",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ff7e7600000",
+    "module_size" : "29000",
+    "dump_file" : "7ff7e7600000.nslookup.exe",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   }
+  ]
+ }

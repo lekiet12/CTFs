@@ -1,0 +1,175 @@
+
+void FUN_9097(void)
+
+{
+  char cVar1;
+  bool bVar2;
+  
+  DAT_0030 = 0;
+  do {
+    FUN_8365();
+    DAT_033b = FUN_84c5(0);
+    if (DAT_033b != '\0') {
+      if (DAT_033b == -0x80) {
+        DAT_033b = 't';
+      }
+      if (DAT_033b == '@') {
+        DAT_033b = 'u';
+      }
+      if (DAT_033b == ' ') {
+        DAT_033b = 'a';
+      }
+      if (DAT_033b == '\x10') {
+        DAT_033b = 'n';
+      }
+      if (DAT_033b == '\x02') {
+        DAT_033b = 'l';
+      }
+      if (DAT_033b == '\x01') {
+        DAT_033b = 'i';
+      }
+      if (DAT_033b == '\b') {
+        DAT_033b = 'n';
+      }
+      if (DAT_033b == '\x04') {
+        DAT_033b = 'h';
+      }
+      *(char *)(DAT_0030 + 0x300) = DAT_033b;
+      DAT_0030 = DAT_0030 + 1;
+      DAT_033b = '\0';
+    }
+  } while (DAT_0030 < 0x10);
+  FUN_827d();
+  FUN_8228(199,0x93);
+  LAB_PPUADDR_8560(0xca,0x21);
+  bVar2 = CARRY1(DAT_0300,DAT_0301);
+  cVar1 = bVar2 != false;
+  if (CARRY1(DAT_0300 + DAT_0301,DAT_0302) != false) {
+    cVar1 = cVar1 + '\x01';
+  }
+  if ((cVar1 == '\x01') &&
+     ((byte)(DAT_0300 + DAT_0301 + DAT_0302 + (bVar2 == false && bVar2)) == 'J')) {
+    bVar2 = CARRY1(DAT_0301,DAT_0302);
+    cVar1 = bVar2 != false;
+    if (CARRY1(DAT_0301 + DAT_0302,DAT_0303) != false) {
+      cVar1 = cVar1 + '\x01';
+    }
+    if ((cVar1 == '\x01') &&
+       ((byte)(DAT_0301 + DAT_0302 + DAT_0303 + (bVar2 == false && bVar2)) == 'D')) {
+      bVar2 = CARRY1(DAT_0302,DAT_0303);
+      cVar1 = bVar2 != false;
+      if (CARRY1(DAT_0302 + DAT_0303,DAT_0304) != false) {
+        cVar1 = cVar1 + '\x01';
+      }
+      if ((cVar1 == '\x01') &&
+         ((byte)(DAT_0302 + DAT_0303 + DAT_0304 + (bVar2 == false && bVar2)) == ';')) {
+        bVar2 = CARRY1(DAT_0303,DAT_0304);
+        cVar1 = bVar2 != false;
+        if (CARRY1(DAT_0303 + DAT_0304,DAT_0305) != false) {
+          cVar1 = cVar1 + '\x01';
+        }
+        if ((cVar1 == '\x01') &&
+           ((byte)(DAT_0303 + DAT_0304 + DAT_0305 + (bVar2 == false && bVar2)) == 'C')) {
+          bVar2 = CARRY1(DAT_0304,DAT_0305);
+          cVar1 = bVar2 != false;
+          if (CARRY1(DAT_0304 + DAT_0305,DAT_0306) != false) {
+            cVar1 = cVar1 + '\x01';
+          }
+          if ((cVar1 == '\x01') &&
+             ((byte)(DAT_0304 + DAT_0305 + DAT_0306 + (bVar2 == false && bVar2)) == 'C')) {
+            bVar2 = CARRY1(DAT_0305,DAT_0306);
+            cVar1 = bVar2 != false;
+            if (CARRY1(DAT_0305 + DAT_0306,DAT_0307) != false) {
+              cVar1 = cVar1 + '\x01';
+            }
+            if ((cVar1 == '\x01') &&
+               ((byte)(DAT_0305 + DAT_0306 + DAT_0307 + (bVar2 == false && bVar2)) == '?')) {
+              bVar2 = CARRY1(DAT_0306,DAT_0307);
+              cVar1 = bVar2 != false;
+              if (CARRY1(DAT_0306 + DAT_0307,DAT_0308) != false) {
+                cVar1 = cVar1 + '\x01';
+              }
+              if ((cVar1 == '\x01') &&
+                 ((byte)(DAT_0306 + DAT_0307 + DAT_0308 + (bVar2 == false && bVar2)) == 'B')) {
+                bVar2 = CARRY1(DAT_0307,DAT_0308);
+                cVar1 = bVar2 != false;
+                if (CARRY1(DAT_0307 + DAT_0308,DAT_0309) != false) {
+                  cVar1 = cVar1 + '\x01';
+                }
+                if ((cVar1 == '\x01') &&
+                   ((byte)(DAT_0307 + DAT_0308 + DAT_0309 + (bVar2 == false && bVar2)) == '=')) {
+                  bVar2 = CARRY1(DAT_0308,DAT_0309);
+                  cVar1 = bVar2 != false;
+                  if (CARRY1(DAT_0308 + DAT_0309,DAT_030a) != false) {
+                    cVar1 = cVar1 + '\x01';
+                  }
+                  if ((cVar1 == '\x01') &&
+                     ((byte)(DAT_0308 + DAT_0309 + DAT_030a + (bVar2 == false && bVar2)) == 'C')) {
+                    bVar2 = CARRY1(DAT_0309,DAT_030a);
+                    cVar1 = bVar2 != false;
+                    if (CARRY1(DAT_0309 + DAT_030a,DAT_030b) != false) {
+                      cVar1 = cVar1 + '\x01';
+                    }
+                    if ((cVar1 == '\x01') &&
+                       ((byte)(DAT_0309 + DAT_030a + DAT_030b + (bVar2 == false && bVar2)) == '?'))
+                    {
+                      bVar2 = CARRY1(DAT_030a,DAT_030b);
+                      cVar1 = bVar2 != false;
+                      if (CARRY1(DAT_030a + DAT_030b,DAT_030c) != false) {
+                        cVar1 = cVar1 + '\x01';
+                      }
+                      if ((cVar1 == '\x01') &&
+                         ((byte)(DAT_030a + DAT_030b + DAT_030c + (bVar2 == false && bVar2)) == 'J')
+                         ) {
+                        bVar2 = CARRY1(DAT_030b,DAT_030c);
+                        cVar1 = bVar2 != false;
+                        if (CARRY1(DAT_030b + DAT_030c,DAT_030d) != false) {
+                          cVar1 = cVar1 + '\x01';
+                        }
+                        if ((cVar1 == '\x01') &&
+                           ((byte)(DAT_030b + DAT_030c + DAT_030d + (bVar2 == false && bVar2)) ==
+                            'Q')) {
+                          bVar2 = CARRY1(DAT_030c,DAT_030d);
+                          cVar1 = bVar2 != false;
+                          if (CARRY1(DAT_030c + DAT_030d,DAT_030e) != false) {
+                            cVar1 = cVar1 + '\x01';
+                          }
+                          if ((cVar1 == '\x01') &&
+                             ((byte)(DAT_030c + DAT_030d + DAT_030e + (bVar2 == false && bVar2)) ==
+                              'J')) {
+                            bVar2 = CARRY1(DAT_030d,DAT_030e);
+                            cVar1 = bVar2 != false;
+                            if (CARRY1(DAT_030d + DAT_030e,DAT_030f) != false) {
+                              cVar1 = cVar1 + '\x01';
+                            }
+                            if ((cVar1 == '\x01') &&
+                               ((byte)(DAT_030d + DAT_030e + DAT_030f + (bVar2 == false && bVar2))
+                                == 'D')) {
+                              for (DAT_002f = 0; (&DAT_93a0)[DAT_002f] != '\0';
+                                  DAT_002f = DAT_002f + 1) {
+                                LAB_PPUDATA_8567((&DAT_93a0)[DAT_002f]);
+                              }
+                              for (DAT_002f = 0; DAT_002f < 0x2b; DAT_002f = DAT_002f + 1) {
+                                DAT_0033 = (&DAT_0310)[DAT_002f];
+                                DAT_0039 = (byte *)CONCAT11(3,DAT_002f & 0xf);
+                                LAB_PPUDATA_8567(*DAT_0039 ^ DAT_0033);
+                              }
+                              LAB_PPUDATA_8567(0x7d);
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  FUN_8286();
+  return;
+}
+

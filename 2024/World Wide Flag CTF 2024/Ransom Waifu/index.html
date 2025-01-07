@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$$ Pay4Waifu $$</title>
+    <script src="./ransomware.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Waifu Ransomware</h1>
+        <p>The hacker's ransomware has locked up my anime waifus!<br />
+            Help me find the password those hackers used!</p>
+        <form id="passwordForm">
+            <label for="passwordInput">Enter the password:</label>
+            <input type="text" id="passwordInput" name="passwordInput" required>
+            <button type="submit">Unlock</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script>
+        document.getElementById('passwordForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const password = document.getElementById('passwordInput').value;
+            const result = document.getElementById('result');
+            // the hackers' ransomware has locked up my waifu!
+            // help me find the passwords those hackers used!
+            // in fact, I've already recovered 2/3 of the password! but I need your help to find the last part!
+            if (check([password, [252, 174, 221, 116, 74, 140, 110, 29], [166, 74, 96, 96, 218, 220, 56, 111]])) {
+                result.textContent = 'Correct password!';
+                result.style.color = 'green';
+            } else {
+                result.textContent = 'Incorrect password.';
+                result.style.color = 'red';
+            }
+        });
+        // async function aes(c, k) {
+        //     return URL.createObjectURL(new Blob([await crypto.subtle.decrypt({ name: 'AES-CBC', iv: c.slice(0, 16) },
+        //         await crypto.subtle.importKey('raw', k, { name: 'AES-CBC' }, false, ['decrypt']), c.slice(16))], { type: 'image/jpg' }));
+        // }
+        // async function unlock(password) {
+        //     try {
+        //         const img = document.createElement('img');
+        //         img.src = await aes(new Uint8Array(await fetch('./waifu').then(r => r.arrayBuffer())),
+        //             new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(password))));
+        //         img.alt = 'Beautiful Waifu!';
+        //         img.classList.add('decrypted-waifu');
+        //         document.querySelector('.container').appendChild(img);
+        //     } catch (error) {
+        //         console.error('Failed to save my waifu 😭', error);
+        //     }
+        // }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        #result {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .decrypted-waifu {
+            max-width: 200px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</body>
+
+</html>

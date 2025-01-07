@@ -1,0 +1,74 @@
+index = 0;
+v25 = 1;
+while ( v25 )
+  {
+    v1 = index++;
+    v13=flag[v1];
+    v2 = v13;
+    switch ( v13 )
+    {
+      case 0:                             
+        v14 = flag[index];
+        v3 = index + 1;
+        index += 2;
+        v4 = flag[v3];
+        v2 = v14;
+        regs[v14] = v4;
+        break;
+      case 1u:
+        v15 = flag[index];
+        v5 = index + 1;
+        index += 2;
+        v23 = flag[v5];
+        v2 = v15;
+        regs[v15] ^= regs[v23];
+        break;
+      case 2:
+        v16 = flag[index];
+        v6 = index + 1;
+        index += 2;
+        v20 = flag[v6];
+        v2 = v16;
+        regs[v16] = ((int)regs[v16] >> (8 - v20)) | (regs[v16] << v20);
+        break;
+      case 3:
+        v7 = index++;
+        v2 = flag[v7];
+        regs[v2] = sbox[regs[v2]];
+        break;
+      case 4:
+        v17 = flag[index];
+        v8 = index + 1;
+        index += 2;
+        v2 = flag[v8];
+        memory[v2] = regs[v17];
+        break;
+      case 5:
+        v18 = flag[index];
+        v9 = index + 1;
+        index += 2;
+        v22 = flag[v9];
+        v2 = v18;
+        regs[v18] = memory[v22];
+        break;
+      case 6:
+        v10 = index++;
+        v2 = putchar(regs[flag[v10]]);
+        break;
+      case 7:
+        v25 = 0;
+        break;
+      case 8:
+        v19 = flag[index];
+        v11 = index + 1;
+        index += 2;
+        v21 = flag[v11]
+        v2 = v19;
+        regs[v19] = (regs[v19] << (8 - v21)) | ((int)regs[v19] >> v21);
+        break;
+      default:
+        v2 = puts("Invalid instruction");
+        v25 = 0;
+        break;
+    }
+  }

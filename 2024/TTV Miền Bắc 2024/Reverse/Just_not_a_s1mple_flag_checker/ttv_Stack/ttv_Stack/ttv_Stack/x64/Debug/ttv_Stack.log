@@ -1,0 +1,7 @@
+﻿  Stack.c
+E:\CTF\KCSC\ttv2024\med_stack\ttv_Stack\ttv_Stack\Stack.c(5,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+      E:\CTF\KCSC\ttv2024\med_stack\ttv_Stack\ttv_Stack\Stack.c(5,9):
+      '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  
+E:\CTF\KCSC\ttv2024\med_stack\ttv_Stack\ttv_Stack\Stack.c(34,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ttv_Stack.vcxproj -> E:\CTF\KCSC\ttv2024\med_stack\ttv_Stack\x64\Debug\ttv_Stack.exe

@@ -1,0 +1,33 @@
+__int64 rnc()
+{
+  int v0; // esp
+  int v1; // ebp
+  int v1; // esp
+  int v3; // ecx
+  int v1; // esp
+  int v5; // eax
+  unsigned int v6; // rt0
+  int v1; // esp
+  int v8; // ecx
+  int v9; // esp
+  int v10; // esp
+
+    unsigned int  arr[3] = {0};
+    (unsigned int) arr[0] = 0x37F47CBA;
+    (unsigned int) arr[1] = 0x345EE313;
+    (unsigned int) arr[3] = val;
+    (unsigned int) arr[2] = 0;
+    while ( (unsigned int) arr[2] <= 0x20Fu )
+    {
+        v3 = (unsigned int) arr[2] & 0x3F;
+        LODWORD(v6) = (unsigned int) arr[0];
+        HIDWORD(v6) = (unsigned int) arr[1];
+        v5 = v6 >> v3;
+        if ( (v3 & 0x20) != 0 )
+        v5 = (unsigned int) arr[1] >> v3;
+        v8 = (((unsigned int) arr[3] >> 1) & 1) + 2 * (2 * ((((unsigned int) arr[3] >> 20) & 1) + 2 * (2 * ((unsigned int) arr[3] >> 31) + (((unsigned int) arr[3] >> 26) & 1))) + (((unsigned int) arr[3] >> 9) & 1));
+        (unsigned int) arr[3] = ((unsigned int) arr[3] >> 1) ^ ((v5 ^ (unsigned int) arr[3] ^ HIWORD((unsigned int) arr[3]) ^ (979137582 >> v8)) << 31);
+        ++(unsigned int) arr[2];
+    }
+    return (unsigned int) arr[3];
+}

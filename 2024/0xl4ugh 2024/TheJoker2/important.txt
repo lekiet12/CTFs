@@ -1,0 +1,21 @@
+
+# Work-related accounts
+admin_server1: SecurePass123!
+db_admin: P@ssword2023!
+vpn_access: Tr0ub4dor!
+gitlab_account: G1tL@bUser20!
+
+# Personal accounts
+netflix: netfl!xAcc2023
+gmail: P3rsonalGm@il!
+facebook: Fb4Life2023
+amazon: Am@zonSecure123
+
+# Other notes
+- Wifi password at home: SuperSecureWifi2024
+- Conference room access code: 123456
+- Backup server credentials: BackupAdmin2023!!
+
+# Do not share these with anyone!
+
+
