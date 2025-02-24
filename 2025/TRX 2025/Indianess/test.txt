@@ -1,0 +1,675 @@
+unsigned __int64 __fastcall run_vm(BYTE *opcode, __int64 size_bytecode, BYTE *flag)
+{
+  __int64 v3; // rdx
+  size_t v4; // rbx
+  const void *v5; // rax
+  __int64 v6; // rdx
+  __int64 v7; // rdx
+  __int64 v8; // rdx
+  __int64 v9; // rdx
+  __int64 v10; // rdx
+  __int64 v11; // rdx
+  int v12; // eax
+  __int64 v13; // rdx
+  __int64 v14; // rdx
+  __int64 v15; // rdx
+  __int64 v16; // rdx
+  __int64 v17; // rdx
+  __int64 v18; // rax
+  int idx; // [rsp+30h] [rbp-150h]
+  int v22; // [rsp+34h] [rbp-14Ch]
+  __int64 v23; // [rsp+38h] [rbp-148h]
+  _BYTE mem[256]; // [rsp+40h] [rbp-140h] BYREF
+  __int64 temp_flag; // [rsp+140h] [rbp-40h] BYREF
+  unsigned __int64 v26; // [rsp+168h] [rbp-18h]
+
+  v26 = __readfsqword(0x28u);
+  idx = 0;
+  v22 = 1;
+  v23 = 0LL;
+  if ( std::string::size(flag) == 30 )
+  {
+    memset(mem, 0, 0x11EuLL);
+    v4 = std::string::size(flag);
+    v5 = (const void *)std::string::c_str(flag);
+    memcpy(&temp_flag, v5, v4);
+    while ( size_bytecode > idx )
+    {
+      switch ( opcode[idx] )
+      {
+        case 0u:
+          v6 = idx + 1LL;
+          switch ( opcode[v6] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] += mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] += mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] += mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] += mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] += mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] += opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] += mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] += mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] += opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] += opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] += mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] += mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v6);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 1u:
+          v7 = idx + 1LL;
+          switch ( opcode[v7] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] -= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] -= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] -= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] -= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] -= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] -= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] -= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] -= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] -= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] -= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] -= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] -= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v7);
+              idx += 2;
+              break;
+          }
+          goto LABEL_34;
+        case 2u:
+LABEL_34:
+          v8 = idx + 1LL;
+          switch ( opcode[v8] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] *= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] *= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] *= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] *= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] *= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] *= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] *= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] *= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] *= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] *= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] *= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] *= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v8);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 3u:
+          v9 = idx + 1LL;
+          switch ( opcode[v9] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] /= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] /= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] /= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] /= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] /= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] /= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] /= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] /= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] /= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] /= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] /= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] /= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v9);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 4u:
+          v10 = idx + 1LL;
+          switch ( opcode[v10] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] %= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] %= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] %= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] %= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] %= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] %= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] %= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] %= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] %= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] %= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] %= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] %= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v10);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 5u:
+          v11 = idx + 1LL;
+          v12 = opcode[v11];
+          if ( v12 == 4 )
+          {
+            mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] = ~mem[(unsigned __int8)mem[opcode[idx + 2] - 8]];
+            idx += 3;
+          }
+          else
+          {
+            if ( opcode[v11] > 4u )
+              goto LABEL_87;
+            if ( !opcode[v11] )
+            {
+              mem[opcode[idx + 2] - 8] = ~mem[opcode[idx + 2] - 8];
+              idx += 3;
+              continue;
+            }
+            if ( v12 == 1 )
+            {
+              mem[opcode[idx + 2]] = ~mem[opcode[idx + 2]];
+              idx += 3;
+            }
+            else
+            {
+LABEL_87:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v11);
+              idx += 2;
+            }
+          }
+          break;
+        case 6u:
+          v13 = idx + 1LL;
+          switch ( opcode[v13] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] |= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] |= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] |= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] |= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] |= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] |= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] |= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] |= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] |= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] |= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] |= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] |= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v13);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 7u:
+          v14 = idx + 1LL;
+          switch ( opcode[v14] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] &= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] &= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] &= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] &= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] &= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] &= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] &= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] &= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] &= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] &= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] &= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] &= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v14);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 8u:
+          v15 = idx + 1LL;
+          switch ( opcode[v15] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] ^= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] ^= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] ^= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] ^= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] ^= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] ^= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] ^= mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] ^= mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] ^= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] ^= opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] ^= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] ^= mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xCu:
+              mem[opcode[idx + 2] - 8] ^= mem[opcode[idx + 3] + 256];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v15);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 9u:
+          v16 = idx + 1LL;
+          switch ( opcode[v16] )
+          {
+            case 0u:
+              mem[opcode[idx + 2] - 8] = mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 1u:
+              mem[opcode[idx + 2]] = mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 2u:
+              mem[opcode[idx + 2]] = mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 3u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] = mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 4u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] = mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 5u:
+              mem[opcode[idx + 2] - 8] = opcode[idx + 3];
+              idx += 4;
+              break;
+            case 6u:
+              mem[opcode[idx + 2] - 8] = mem[opcode[idx + 3]];
+              idx += 4;
+              break;
+            case 7u:
+              mem[opcode[idx + 2] - 8] = mem[(unsigned __int8)mem[opcode[idx + 3] - 8]];
+              idx += 4;
+              break;
+            case 8u:
+              mem[opcode[idx + 2]] = opcode[idx + 3];
+              idx += 4;
+              break;
+            case 9u:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] = opcode[idx + 3];
+              idx += 4;
+              break;
+            case 0xAu:
+              mem[opcode[idx + 2]] = mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            case 0xBu:
+              mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] = mem[opcode[idx + 3] - 8];
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v16);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 0xAu:
+          v17 = idx + 1LL;
+          switch ( opcode[v17] )
+          {
+            case 0u:
+              v22 = (mem[opcode[idx + 2] - 8] == mem[opcode[idx + 3] - 8]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 1u:
+              v22 = (mem[opcode[idx + 2]] == mem[opcode[idx + 3]]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 2u:
+              v22 = (mem[opcode[idx + 2]] == mem[(unsigned __int8)mem[opcode[idx + 3] - 8]]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 3u:
+              v22 = (mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] == mem[opcode[idx + 3]]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 4u:
+              v22 = (mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] == mem[(unsigned __int8)mem[opcode[idx + 3] - 8]]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 5u:
+              v22 = (mem[opcode[idx + 2] - 8] == opcode[idx + 3]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 6u:
+              v22 = (mem[opcode[idx + 2] - 8] == mem[opcode[idx + 3]]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 7u:
+              v22 = (mem[opcode[idx + 2] - 8] == mem[(unsigned __int8)mem[opcode[idx + 3] - 8]]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 8u:
+              v22 = (mem[opcode[idx + 2]] == opcode[idx + 3]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 9u:
+              v22 = (mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] == opcode[idx + 3]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 0xAu:
+              v22 = (mem[opcode[idx + 2]] == mem[opcode[idx + 3] - 8]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            case 0xBu:
+              v22 = (mem[(unsigned __int8)mem[opcode[idx + 2] - 8]] == mem[opcode[idx + 3] - 8]) & (unsigned __int8)v22;
+              idx += 4;
+              break;
+            default:
+              std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown mode\n", v17);
+              idx += 2;
+              break;
+          }
+          continue;
+        case 0xBu:
+          if ( v22 )
+            v18 = std::operator<<<std::char_traits<char>>(&std::cout, "Success!", idx);
+          else
+            v18 = std::operator<<<std::char_traits<char>>(&std::cout, "Better Luck Next Time!", idx);
+          std::ostream::operator<<(v18, &unk_7FFFF7E8E690);
+          ++idx;
+          continue;
+        default:
+          std::operator<<<std::char_traits<char>>(&std::cerr, "Unknown instruction\n", idx++);
+          continue;
+      }
+    }
+  }
+  else
+  {
+    std::operator<<<std::char_traits<char>>(&std::cerr, "Invalid Flag Len\n", v3);
+  }
+  return v26 - __readfsqword(0x28u);
+}
