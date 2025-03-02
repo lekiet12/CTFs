@@ -1,0 +1,240 @@
+    0x0: PUSH1     0x3
+    0x2: CALLDATASIZE
+    0x3: GT        
+    0x4: PUSH2     0x18
+    0x7: NUMBER    
+    0x8: BLOCKHASH 
+    0x9: TSTORE    
+    0xa: PUSH2     0x6b4
+    0xd: JUMPI     
+    0xe: PUSH2     0x6ac
+   0x11: NUMBER    
+   0x12: BLOCKHASH 
+   0x13: TSTORE    
+   0x14: PUSH2     0x6b4
+   0x17: JUMP      
+   0x18: JUMPDEST  
+   0x19: PUSH0     
+   0x1a: CALLDATALOAD
+   0x1b: PUSH1     0xe0
+   0x1d: SHR       
+   0x1e: CALLVALUE 
+   0x1f: PUSH2     0x6b0
+   0x22: NUMBER    
+   0x23: BLOCKHASH 
+   0x24: TSTORE    
+   0x25: PUSH2     0x6b4
+   0x28: JUMPI     
+   0x29: PUSH4     0x1002b1f
+   0x2e: DUP2      
+   0x2f: XOR       
+   0x30: PUSH2     0x6aa
+   0x33: NUMBER    
+   0x34: BLOCKHASH 
+   0x35: TSTORE    
+   0x36: PUSH2     0x6b4
+   0x39: JUMPI     
+   0x3a: PUSH1     0x84
+   0x3c: CALLDATASIZE
+   0x3d: LT        
+   0x3e: PUSH2     0x6b0
+   0x41: NUMBER    
+   0x42: BLOCKHASH 
+   0x43: TSTORE    
+   0x44: PUSH2     0x6b4
+   0x47: JUMPI     
+   0x48: PUSH1     0x24
+   0x4a: CALLDATALOAD
+   0x4b: PUSH1     0x4
+   0x4d: ADD       
+   0x4e: PUSH1     0x40
+   0x50: DUP2      
+   0x51: CALLDATALOAD
+   0x52: GT        
+   0x53: PUSH2     0x6b0
+   0x56: NUMBER    
+   0x57: BLOCKHASH 
+   0x58: TSTORE    
+   0x59: PUSH2     0x6b4
+   0x5c: JUMPI     
+   0x5d: DUP1      
+   0x5e: CALLDATALOAD
+   0x5f: PUSH1     0x20
+   0x61: DUP3      
+   0x62: ADD       
+   0x63: DUP2      
+   0x64: DUP2      
+   0x65: PUSH1     0x60
+   0x67: CALLDATACOPY
+   0x68: POP       
+   0x69: DUP1      
+   0x6a: PUSH1     0x40
+   0x6c: MSTORE    
+   0x6d: POP       
+   0x6e: POP       
+   0x6f: PUSH32    0x1b47819435df544ae4e6a35d3c2d0eb2900cab1460ec254d464c1d82d70db60a
+   0x90: PUSH32    0xe4b87e6bca20abb51b195ca36f2af2f5438b8a072af4f6f657b9a8304e8d3691
+   0xb1: ADD       
+   0xb2: CALLER    
+   0xb3: XOR       
+   0xb4: PUSH2     0x6b0
+   0xb7: NUMBER    
+   0xb8: BLOCKHASH 
+   0xb9: TSTORE    
+   0xba: PUSH2     0x6b4
+   0xbd: JUMPI     
+   0xbe: PUSH32    0x4000000000000000000000000000000000000000000000000000000000000000
+   0xdf: PUSH1     0xa0
+   0xe1: MSTORE    
+   0xe2: PUSH32    0x1000000000000000000000000000000000000000000000000000000000000000
+  0x103: PUSH1     0xc0
+  0x105: MSTORE    
+  0x106: PUSH32    0x6d1cd107e7ef14bc558622a86cb621d9f18c50764e98df43777f3b33164b87dd
+  0x127: PUSH32    0x42e0da5ae4babe43a564859fc944bb6033a02fb2741ff60444793a962b5ccf62
+  0x148: PUSH32    0xa2b11742daceaab03c583a6aa15e32d664450c3eb36da7897f6ce12149007859
+  0x169: PUSH32    0x8d4d1c1fd99b004fccba9d5d04aca86fa66973fa89ea8ece4c6ae08474173fa6
+  0x18a: XOR       
+  0x18b: XOR       
+  0x18c: SUB       
+  0x18d: MLOAD     
+  0x18e: PUSH32    0x781d48306de91b1cbdc32a7036761292d1c1cf57e84fe74689f7583d7e24c64f
+  0x1af: PUSH32    0x781d48306de91b1cbdc32a7036761292d1c1cf57e84fe74689f7583d7e24c6ef
+  0x1d0: XOR       
+  0x1d1: MLOAD     
+  0x1d2: PUSH32    0x512bd13110722311710cf5327ac435a7a97c643656412a9b8a1abcd1a6916c7
+  0x1f3: PUSH32    0x459142deccea264542a00403ce80c4b0a4042bb3d4341aad06905269ed6f0b09
+  0x214: PUSH32    0x4083ffcddded047455b0cb50e92c87eade93edf0b1500804be31f9a4f7061dc2
+  0x235: XOR       
+  0x236: SUB       
+  0x237: CALLDATALOAD
+  0x238: XOR       
+  0x239: XOR       
+  0x23a: PUSH2     0x69f
+  0x23d: NUMBER    
+  0x23e: BLOCKHASH 
+  0x23f: TSTORE    
+  0x240: PUSH2     0x6b4
+  0x243: JUMPI     
+  0x244: PUSH32    0x805d92843fa8a2a28a4c797f73b9b4d5a4d8fd4f515d4e8cdfc2c30396908149
+  0x265: PUSH32    0x4c45d48945056a0c8203311b215240ed84ad80e70629f350834b13c2c0f510d4
+  0x286: PUSH32    0x768ff01e42043ef7236fc833ca34516c059f32dce8faaa7c3085cb73a85b9df
+  0x2a7: XOR       
+  0x2a8: SUB       
+  0x2a9: PUSH32    0xadaf670881744dc7aa596a2d1eb68dbc21fef929481f4bc6ec75331d53acbd2e
+  0x2ca: PUSH32    0x61ec705ea65e9bbf5b5a26cc5fa4f55ad1074377dce1ffbc52d65a8816af56a4
+  0x2eb: PUSH32    0x9c1a44f72090b2084eff4360bf11986150f7b5b16b3d4c0a999ed8953cfd668a
+  0x30c: ADD       
+  0x30d: SUB       
+  0x30e: PUSH1     0xe0
+  0x310: MSTORE    
+  0x311: PUSH1     0x20
+  0x313: PUSH32    0x5a589468edfec83b6b027d7dc5bb900ed2921f1620aae0da1aa294cc3ef1dd71
+  0x334: PUSH32    0xa5a76b97120137c494fd82823a446ff12d6de0e9df551f25e55d6b33c10e236f
+  0x355: ADD       
+  0x356: LOG1      
+  0x357: PUSH32    0x101aa2511b4501cd6f4bedff54bee2f014409dfdf0c34e4a64b6f4f4e72d12a1
+  0x378: PUSH32    0x6aaf1061dc80372e146e902c25be0914f9997523a728f840c73791d7d1c5554e
+  0x399: PUSH32    0xed7a429f015e2d1de96ca3ecadf167436726c87d156b2102064cdc2db8a65eba
+  0x3ba: PUSH32    0x8a0afd773820c30d4395e19e96c0e921f3358da90bb44eb99631bbcc1afc52d2
+  0x3db: PUSH32    0x2933690f7726bee93b2fb03b006b8c4f0cd1d2602dd08d3884e88cb07c998555
+  0x3fc: PUSH32    0xf498467872da19bd835f3a0d95241a369f38625609e70acb1761497dddfe7411
+  0x41d: ADD       
+  0x41e: ADD       
+  0x41f: ADD       
+  0x420: ADD       
+  0x421: MLOAD     
+  0x422: PUSH1     0x60
+  0x424: SHA3      
+  0x425: XOR       
+  0x426: PUSH2     0x69f
+  0x429: NUMBER    
+  0x42a: BLOCKHASH 
+  0x42b: TSTORE    
+  0x42c: PUSH2     0x6b4
+  0x42f: JUMPI     
+  0x430: PUSH32    0x7d32a137160083987c5b53f4a7153ac04f8d6c93569d179ad4df3963572af76b
+  0x451: PUSH32    0x9650daf8bc6e9af151f6c7125f922329197841d23a7933641b5c2b5a836f208d
+  0x472: PUSH32    0xd973dfa900ec9b8498e449d6a71d2eed81d94c326c4acc325db9c6420acc6bd
+  0x493: ADD       
+  0x494: SUB       
+  0x495: PUSH32    0xc86afc4c1f60387b16cce4e4b7c47baf30b9fc18389a2563b2afbe90f43b938b
+  0x4b6: PUSH32    0x9de848aa2e1f7fadbc76fdeb1e6d86e23f62c033260728029884a9e1533cf090
+  0x4d7: PUSH32    0x4535f7c4dddcbd2e353778b864f7e5aadeb48786211942f0066b5715f41e1344
+  0x4f8: PUSH32    0xcd1941de2602e740c239ec7184cd0608b8cebb856e7243bca25b386695fc5d4f
+  0x519: PUSH32    0x11fea6990cda43a993f3c8cb366da2c23305d78b65ad90ea8578bc704a1b5361
+  0x53a: PUSH32    0x81385805084428d13c1994377979238f1c9f574353e344bf9674b56f2380894f
+  0x55b: SUB       
+  0x55c: XOR       
+  0x55d: XOR       
+  0x55e: ADD       
+  0x55f: ADD       
+  0x560: PUSH1     0xe0
+  0x562: MSTORE    
+  0x563: PUSH32    0xb861afb70639f08b7f0a674d3ce0216ce6746772b2c753574d99d19c2507759b
+  0x584: PUSH32    0x479e5048f9c60f7480f598b2c31fde93198b988d4d38aca8b2662e63daf88a85
+  0x5a5: ADD       
+  0x5a6: PUSH32    0x5a589468edfec83b6b027d7dc5bb900ed2921f1620aae0da1aa294cc3ef1dd71
+  0x5c7: PUSH32    0xa5a76b97120137c494fd82823a446ff12d6de0e9df551f25e55d6b33c10e236f
+  0x5e8: ADD       
+  0x5e9: LOG1      
+  0x5ea: PUSH2     0xa28
+  0x5ed: PUSH1     0x2
+  0x5ef: PUSH1     0x44
+  0x5f1: CALLDATALOAD
+  0x5f2: XOR       
+  0x5f3: XOR       
+  0x5f4: PUSH2     0x69f
+  0x5f7: NUMBER    
+  0x5f8: BLOCKHASH 
+  0x5f9: TSTORE    
+  0x5fa: PUSH2     0x6b4
+  0x5fd: JUMPI     
+  0x5fe: PUSH32    0x6751ff9969e5beee7bb9fd6731aba2e2a213bd96a1f54b0a24d11452a915ab96
+  0x61f: PUSH32    0xa3f4105dff5270ad5b285974bd7f411880965825ce709ecdb52d7d484df31bfd
+  0x640: PUSH32    0x493267cb0f8113a9bd75b52869d3344723cd0d18ac091431f0c8c0557d4d69c3
+  0x661: PUSH32    0x8a7d2dab1437a704175dec5cd4ac755fa35b553d62798afc45e5bd1d30be723e
+  0x682: XOR       
+  0x683: SUB       
+  0x684: PUSH1     0xe0
+  0x686: MSTORE    
+  0x687: PUSH1     0x20
+  0x689: PUSH1     0xe0
+  0x68b: LOG1      
+  0x68c: PUSH1     0x1
+  0x68e: PUSH1     0xe0
+  0x690: MSTORE    
+  0x691: PUSH1     0x20
+  0x693: PUSH1     0xe0
+  0x695: PUSH2     0x6a8
+  0x698: NUMBER    
+  0x699: BLOCKHASH 
+  0x69a: TSTORE    
+  0x69b: PUSH2     0x6b4
+  0x69e: JUMP      
+  0x69f: JUMPDEST  
+  0x6a0: PUSH0     
+  0x6a1: PUSH1     0xe0
+  0x6a3: MSTORE    
+  0x6a4: PUSH1     0x20
+  0x6a6: PUSH1     0xe0
+  0x6a8: JUMPDEST  
+  0x6a9: RETURN    
+  0x6aa: JUMPDEST  
+  0x6ab: POP       
+  0x6ac: JUMPDEST  
+  0x6ad: PUSH0     
+  0x6ae: PUSH0     
+  0x6af: REVERT    
+  0x6b0: JUMPDEST  
+  0x6b1: PUSH0     
+  0x6b2: DUP1      
+  0x6b3: REVERT    
+  0x6b4: JUMPDEST  
+  0x6b5: NUMBER    
+  0x6b6: BLOCKHASH 
+  0x6b7: TLOAD     
+  0x6b8: DUP1      
+  0x6b9: DUP2      
+  0x6ba: XOR       
+  0x6bb: XOR       
+  0x6bc: JUMP      
