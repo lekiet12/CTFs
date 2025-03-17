@@ -1,0 +1,1491 @@
+GETREGS: rip: 0x7f168ede3101
+POKE (0x7f168ede3100 , 0xcccccccc28778d48),
+SETREGS: rip: 0x7f168ede3100
+GETREGS: rip: 0x7f168ede3105
+POKE (0x7f168ede3100 , 0xcccccccccccccccc),
+POKE (0x7f168ede3104 , 0xccccccccccfa8948),
+SETREGS: rip: 0x7f168ede3104
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede3104 , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc47c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc4ac06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc4dc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc50c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc53c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc56c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc59c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc5cc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc5fc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc62c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc65c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc68c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc6bc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc6ec06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc71c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc74c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc77c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc7ac06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc7dc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc80c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc83c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc86c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc89c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc8cc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc8fc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc92c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc95c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc98c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc9bc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccc9ec06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccca1c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccca4c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xcccccccccca7c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xccccccccccaac06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xccccccccccadc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xccccccccccb0c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xccccccccccb3c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xccccccccccb6c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xccccccccccb9c06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede3108
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede3107 , 0xccccccccccd18948),
+SETREGS: rip: 0x7f168ede3107
+GETREGS: rip: 0x7f168ede310b
+POKE (0x7f168ede3107 , 0xcccccccccccccccc),
+POKE (0x7f168ede310a , 0xcccccccc01c28348),
+SETREGS: rip: 0x7f168ede310a
+GETREGS: rip: 0x7f168ede310f
+POKE (0x7f168ede310a , 0xcccccccccccccccc),
+POKE (0x7f168ede310e , 0xcccccccccccc028a),
+SETREGS: rip: 0x7f168ede310e
+GETREGS: rip: 0x7f168ede3111
+POKE (0x7f168ede310e , 0xcccccccccccccccc),
+POKE (0x7f168ede3110 , 0xccccccccccbcc06b),
+SETREGS: rip: 0x7f168ede3110
+GETREGS: rip: 0x7f168ede3114
+POKE (0x7f168ede3110 , 0xcccccccccccccccc),
+POKE (0x7f168ede3113 , 0xcccccccccccc0130),
+SETREGS: rip: 0x7f168ede3113
+GETREGS: rip: 0x7f168ede3116
+POKE (0x7f168ede3113 , 0xcccccccccccccccc),
+POKE (0x7f168ede3115 , 0xcccccccccc350180),
+SETREGS: rip: 0x7f168ede3115
+GETREGS: rip: 0x7f168ede3119
+POKE (0x7f168ede3115 , 0xcccccccccccccccc),
+POKE (0x7f168ede3118 , 0xccccccccccf23948),
+SETREGS: rip: 0x7f168ede3118
+GETREGS: rip: 0x7f168ede311c
+POKE (0x7f168ede3118 , 0xcccccccccccccccc),
+POKE (0x7f168ede311b , 0xccccccccccccea75),
+SETREGS: rip: 0x7f168ede311b
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede311b , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xccccdeadbeefc069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xccccdf6ebeddc069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce02fbecbc069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce0f0beb9c069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce1b1bea7c069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce272be95c069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce333be83c069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce3f4be71c069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce4b5be5fc069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede311e
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede311d , 0xcccccccccccc078b),
+SETREGS: rip: 0x7f168ede311d
+GETREGS: rip: 0x7f168ede3120
+POKE (0x7f168ede311d , 0xcccccccccccccccc),
+POKE (0x7f168ede311f , 0xcccce576be4dc069),
+SETREGS: rip: 0x7f168ede311f
+GETREGS: rip: 0x7f168ede3126
+POKE (0x7f168ede311f , 0xcccccccccccccccc),
+POKE (0x7f168ede3125 , 0xcccccccc04c78348),
+SETREGS: rip: 0x7f168ede3125
+GETREGS: rip: 0x7f168ede312a
+POKE (0x7f168ede3125 , 0xcccccccccccccccc),
+POKE (0x7f168ede3129 , 0xccccccccccf73948),
+SETREGS: rip: 0x7f168ede3129
+GETREGS: rip: 0x7f168ede312d
+POKE (0x7f168ede3129 , 0xcccccccccccccccc),
+POKE (0x7f168ede312c , 0xccccccccccccef75),
+SETREGS: rip: 0x7f168ede312c
+GETREGS: rip: 0x7f168ede312f
+POKE (0x7f168ede312c , 0xcccccccccccccccc),
+POKE (0x7f168ede312e , 0xccccccccccccccc3),
+SETREGS: rip: 0x7f168ede312e
