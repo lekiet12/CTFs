@@ -1,0 +1,16 @@
+struct vm{
+    unsigned char* size;                
+    val* value;             
+    unsigned char stack[128];
+    unsigned int memory[12];
+    unsigned char regs[3];
+    unsigned short counter;     
+    unsigned char index;            
+    unsigned char key[16];        
+    unsigned char padding[14];        
+}
+
+struct val {
+unsigned long capacity;
+unsigned int data[8];
+}
